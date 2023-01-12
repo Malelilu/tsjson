@@ -4,7 +4,7 @@ with open('accounts.json', 'r') as filejson:
         # Lade die JSON-Daten aus der Datei
         data = json.load(filejson)
 
-eingabe = input('was moechtes du eingeben?\noption a: alter\noption b: kontostand')
+eingabe = input('was moechtes du eingeben?\noption a: alter\noption b: kontostand\n')
 
 if eingabe == "alter":
  for account in data:
